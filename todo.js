@@ -8,7 +8,7 @@ var root = document.getElementById("root");
 var clearDiv = document.getElementsByClassName("todo-app__clean")[0];
 var clearButton = document.getElementById("clear_completed_button");
 var state = ALL;
-var lastIdx = 0;
+var lastIdx = 0; 
 /* Utils */
 const getTodoId = todo => todo.firstElementChild.firstElementChild.id;
 const completed = todo => todo.firstElementChild.firstElementChild.checked;
