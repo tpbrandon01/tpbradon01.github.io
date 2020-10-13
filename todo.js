@@ -1,4 +1,4 @@
-/* Global Variables */
+/* Global Variables */   
 const [ALL, ACTIVE, COMPLETED] = [0, 1, 2];
 var nowTiming = document.getElementById("now-timing").innerText;
 var todos = [];
@@ -12,6 +12,7 @@ var lastIdx = 0;
 /* Utils */
 const getTodoId = todo => todo.firstElementChild.firstElementChild.id;
 const completed = todo => todo.firstElementChild.firstElementChild.checked;
+
 
 
 function checkTime(i) {
